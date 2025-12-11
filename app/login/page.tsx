@@ -58,8 +58,11 @@ export default function Page() {
   };
 
   return (
-    <div className="mt-16">
-      <div className=" max-w-[400px]  mx-auto">
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center p-6">
+      <div className="w-[400px]  mx-auto">
+        <h1 className="text-2xl font-semibold mb-6 text-center">
+          OCEANGET TASK
+        </h1>
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="border px-6 py-6 rounded"
